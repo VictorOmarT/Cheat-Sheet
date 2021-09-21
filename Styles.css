@@ -1,4 +1,17 @@
 * {
-  background-color: red;
+  background-color: #010113;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+
+table {
+  color: white;
 }
 /*# sourceMappingURL=Styles.css.map */
