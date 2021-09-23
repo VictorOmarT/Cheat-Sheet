@@ -1,6 +1,5 @@
 * {
     background-color: rgb(1, 1, 19);
-    
 }
 $colortexts: white;
 
@@ -9,9 +8,27 @@ header {
     color: $colortexts;
 }
 
-h5 {
-    color: $colortexts;
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
+
 table {
     color: $colortexts;
+    border: 2px solid rgb(247, 35, 7);
+    width: 650px;
+    margin: 0 auto;
+    th {
+        background-color: rgb(221, 10, 10);
+    }
+    td {
+        text-align: left;
+    }
 }
+h2 {
+    color: $colortexts;
+    
+}
+
